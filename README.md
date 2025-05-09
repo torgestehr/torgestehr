@@ -8,5 +8,8 @@ Delete a local branch:
 Update the local list of remote branches:
 ```git remote update origin --prune```
 
-Show all local and remote branches that (local) Git knows about::
+Show all local and remote branches that (local) Git knows about:
 ```git branch -a```
+
+Update the remote repo URL:
+```git remote set-url origin <new_url>```
